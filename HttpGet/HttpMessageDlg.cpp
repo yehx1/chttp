@@ -160,7 +160,7 @@ void CHttpMessageDlg::OnBnClickedOk()
 {
 	// TODO: 在此添加控件通知处理程序代码
 	CString str;
-	str = "http://sdk.entinfo.cn:8061/webservice.asmx/mdsmssend?sn=SDK-BBX-010-29050&pwd=A88C4E3ECCB864D008E9A7E7F959E455&mobile=13122303385&content=ceshi3&ext=&stime=&rrid=&msgfmt=";
+	str = "http url";
 	MessageBox(HttpGet(str));
 	CDialogEx::OnOK();
 }
